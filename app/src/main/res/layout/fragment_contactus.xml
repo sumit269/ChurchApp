@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/txt_churchName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_size_1"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:text="Name" />
+
+    <TextView
+        android:id="@+id/txt_churchSlogan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/list_separator_margin"
+        android:text="Slogan"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/txt_churchAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_size_2"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/list_separator_margin"
+        android:text="Address" />
+
+    <TextView
+        android:id="@+id/txt_LocateOnMap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_size_2"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/list_separator_margin" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/list_separator_margin">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="@dimen/text_size_2"
+            android:text="Postal address" />
+
+        <TextView
+            android:id="@+id/txt_churchPostalAddress"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="@dimen/text_size_2"
+            android:text="@string/sampletext" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/list_separator_margin">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="@dimen/text_size_2"
+            android:text="Telephone" />
+
+        <TextView
+            android:id="@+id/txt_churchTelephone"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="@dimen/text_size_2"
+            android:text="@string/sampletext" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/list_separator_margin">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="@dimen/text_size_2"
+            android:text="Email us" />
+
+        <TextView
+            android:id="@+id/txt_churchEmail"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_size_2"
+            android:layout_weight="1"
+            android:text="@string/sampletext" />
+    </LinearLayout>
+
+</LinearLayout>

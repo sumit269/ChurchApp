@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/imgThumbnail"
+        android:layout_width="90dp"
+        android:layout_height="120dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_margin="5dp"
+        android:background="@color/material_blue_grey_800"/>
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_toRightOf="@id/imgThumbnail"
+        android:textColor="@color/material_blue_grey_800"
+        android:text="@string/sampletext"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"/>
+    <TextView
+        android:id="@+id/txtDesignation"
+        android:layout_toRightOf="@id/imgThumbnail"
+        android:layout_below="@+id/txtName"
+        android:textColor="@color/material_blue_grey_800"
+        android:text="@string/sampletext"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"/>
+    <TextView
+        android:id="@+id/txtChurchName"
+        android:layout_toRightOf="@id/imgThumbnail"
+        android:layout_below="@+id/txtDesignation"
+        android:textColor="@color/material_blue_grey_800"
+        android:text="@string/sampletext"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"/>
+</RelativeLayout>

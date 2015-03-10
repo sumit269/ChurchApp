@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">church</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="sampletext">Sample text</string>
+
+    <string-array name="nav_menu_array">
+        <item>History</item>
+        <item>Bishops</item>
+        <item>Mass times</item>
+        <item>Important info</item>
+        <item>Contact us</item>
+        <item>About</item>
+    </string-array>
+
+
+    <string name="dummyText1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent blandit mauris vel magna feugiat, at luctus tortor faucibus. Suspendisse a sollicitudin purus, a pretium velit.</string>
+    <string name="dummyText2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent blandit mauris vel magna feugiat, at luctus tortor faucibus. Suspendisse a sollicitudin purus, a pretium velit. Morbi risus ex, efficitur vel sapien at, cursus pulvinar urna. Duis tempus porta ex vitae accumsan.</string>
+    <string name="dummyText3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent blandit mauris vel magna feugiat, at luctus tortor faucibus. Suspendisse a sollicitudin purus, a pretium velit. Morbi risus ex, efficitur vel sapien at, cursus pulvinar urna. Duis tempus porta ex vitae accumsan. Donec tincidunt, justo non sagittis malesuada, eros tellus condimentum diam, at consectetur dolor sapien eget ante. Pellentesque nec orci ac enim aliquet hendrerit.</string>
+    <string name="dummyText4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent blandit mauris vel magna feugiat, at luctus tortor faucibus. Suspendisse a sollicitudin purus, a pretium velit. Morbi risus ex, efficitur vel sapien at, cursus pulvinar urna. Duis tempus porta ex vitae accumsan. Donec tincidunt, justo non sagittis malesuada, eros tellus condimentum diam, at consectetur dolor sapien eget ante. Pellentesque nec orci ac enim aliquet hendrerit. Vivamus libero lacus, dictum sit amet tortor non, rutrum aliquet turpis. Nulla at nunc non nibh interdum mattis. Cras non urna nisi.</string>
+
+
+    <string name="mass_timings"><![CDATA[<html><head>
+  <title>My first styled page</title>
+  <style type="text/css">
+   body {text-align: center; color: purple }
+</style>
+</head><body><h1 class="centred">Mass Times</h1>
+                    <h3 class="centred">Mass is currently&nbsp;celebrated at St Mary\'s on <br> Saturdays at 8am,<br> Sundays at 9am and again at 5pm.</h3>
+                    <h3 class="centred">There is also a 7am Mass on weekday mornings<br> (Monday to Friday)</h3>
+                    <p class="centred"><a href="http://www.cathedralofststephen.org.au/mass.htm" target="_blank">Click here to view the Mass Times Schedule for <br>
+                      the Cathedral of St Stephen in Brisbane City <br> and also St Patrick\'s Church, Fortitude Valley.</a></p></td></body></html>]]></string>
+    <string name="church_name">St Mary\'s Catholic Church</string>
+    <string name="church_slogan">Slogan (if any)</string>
+    <string name="church_address">20 Merivale St, South Brisbane QLD 4101</string>
+    <string name="locate_on_map"><![CDATA[<u>Locate on map</u>]]></string>
+    <string name="postal_address">PO Box 3857, South Brisbane QLD 4101</string>
+    <string name="church_telephone">07 3844 2744</string>
+    <string name="church_email">test@gmail.com</string>
+
+</resources>
